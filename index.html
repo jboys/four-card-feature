@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/png" href="./img/favicon-32x32.png" sizes="32x32" />
+
+    <title>Four Card Feature Section | Frontend Mentor Solution</title>
+  </head>
+
+  <body class="bg-gray-100 text-[0.9375rem]">
+    <main class="mx-auto max-w-lg px-8 md:max-w-5xl">
+      <header class="mb-20 mt-20 text-center md:mx-auto md:max-w-lg">
+        <h1
+          class="mb-4 text-2xl font-extralight leading-9 text-gray-900 sm:text-3xl md:text-[2.15rem] md:leading-[3rem]"
+        >
+          Reliable, efficient delivery
+          <br />
+          <span class="font-medium">Powered by Technology</span>
+        </h1>
+        <p class="leading-6 text-gray-500">
+          Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is
+          successful
+        </p>
+      </header>
+
+      <section
+        class="mb-4 flex flex-col gap-6 md:mb-20 md:flex-row md:items-center md:gap-8"
+        aria-label="Four-card feature section"
+      >
+        <!-- First card (Supervisor) -->
+        <div
+          class="border-t-cyan flex flex-col justify-between rounded-lg border-t-4 bg-white px-7 py-6 drop-shadow-xl md:basis-1/3"
+          aria-label="Supervisor card"
+        >
+          <h2 class="mb-1.5 text-xl font-semibold text-gray-900">Supervisor</h2>
+          <p class="mb-8 text-[0.8rem] leading-6 text-gray-500">Monitors activity to identify project roadblocks</p>
+          <div class="flex justify-end">
+            <img class="size-14" src="img/icon-supervisor.svg" alt="" aria-hidden="true" />
+          </div>
+        </div>
+
+        <!-- Center column with two stacked cards -->
+        <div class="flex flex-col gap-6 md:basis-1/3 md:gap-8">
+          <!-- Second card (Team Builder) -->
+          <div
+            class="border-t-red flex flex-col justify-between rounded-lg border-t-4 bg-white px-7 py-6 drop-shadow-xl"
+            aria-label="Team Builder card"
+          >
+            <h2 class="mb-1.5 text-xl font-semibold text-gray-900">Team Builder</h2>
+            <p class="mb-8 text-[0.8rem] leading-6 text-gray-500">
+              Scans our talent network to create the optimal team for your project
+            </p>
+            <div class="flex justify-end">
+              <img class="size-14" src="img/icon-team-builder.svg" alt="" aria-hidden="true" />
+            </div>
+          </div>
+
+          <!-- Third card (Karma) -->
+          <div
+            class="border-t-orange flex flex-col justify-between rounded-lg border-t-4 bg-white px-7 py-6 drop-shadow-xl"
+            aria-label="Karma card"
+          >
+            <h2 class="mb-1.5 text-xl font-semibold text-gray-900">Karma</h2>
+            <p class="mb-8 text-[0.8rem] leading-6 text-gray-500">Regularly evaluates our talent to ensure quality</p>
+            <div class="flex justify-end">
+              <img class="size-14" src="img/icon-karma.svg" alt="" aria-hidden="true" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Fourth card (Calculator) -->
+        <div
+          class="border-t-blue flex flex-col justify-between rounded-lg border-t-4 bg-white px-7 py-6 drop-shadow-xl md:basis-1/3"
+          aria-label="Calculator card"
+        >
+          <h2 class="mb-1.5 text-xl font-semibold text-gray-900">Calculator</h2>
+          <p class="mb-8 text-[0.8rem] leading-6 text-gray-500">
+            Uses data from past projects to provide better delivery estimates
+          </p>
+          <div class="flex justify-end">
+            <img class="size-14" src="img/icon-calculator.svg" alt="" aria-hidden="true" />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
